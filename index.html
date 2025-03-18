@@ -2,6 +2,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/myt6zwk.css">
+    <link rel="icon" type="svg" sizes="16x16" href="Puzzle piece .svg">
 </head>
 <body>
     <header>
@@ -10,9 +11,9 @@
     <main>
         <div class="profile-div">
             <img src="https://applauscreative.no/wp-content/uploads/2023/12/20230322-KANY6427-scaled-e1707309478838.jpg" alt="profile picture of Oscar" class="profile-image">
-            <p class="profile-information">Hi, I'm Oscar, an Art Director and Web developer. I've develop(ed) brands and products for Applaus Creative and Vanir Esports</p>
+            <p class="profile-information">Hi, I'm Oscar, an Art Director and Web developer.<br> I've develop(ed) brands and products for Applaus Creative and Vanir Esports</p>
             <div class="profile-cta-group"> 
-                <a class="profile-cta" href="https://oscarlone.no"> Work w/me </a>
+                <a class="profile-cta" href="https://applauscreative.no"> Work w/me </a>
                 <a class="profile-cta" id="testJs" onclick="show()">Test JS</a>
             </div>  
         </div>
@@ -51,7 +52,7 @@
                     </div>
                 </a>
                 <a href="https://applauscreative.no" class="projects-small-showcase-content">
-                    <img src="https://applauscreative.no/wp-content/uploads/2024/03/Applaus_Logo-e1710643721226.png" alt="project">
+                    <img onmouseover=imageSwap() onmouseout= imageRestore() id="applausImageSwap" src="Applaus BG banner.png" alt="project">
                     <div class="projects-small-showcase-text">
                         <p class="company-name">Applaus Creative</p>
                         <p class="project-tag">Art Direction</p>
