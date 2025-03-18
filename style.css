@@ -66,6 +66,43 @@ a {
     border: solid 1px;
 }
 
+.counter-section {
+    justify-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.counter-container {
+    Display: flex;
+    gap: 8px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 10px;
+    justify-content: center;
+    width: 80px;
+    margin-top: -10px;
+}
+
+.button-counter {
+    border: solid 0px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: auto;
+}
+
+#decrease {
+    padding: 8px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
 /* Companies */
 .companies-worked-with {
     width: 100%;
